@@ -10,8 +10,8 @@ package:
 source:
   fn: testit_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/testit_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/testit/testit_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/testit_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/testit/testit_{{ version }}.tar.gz
   sha256: 03332889bffe8b69d36e696e3a6a1a29713cdcbccf1efced6cddbf061fb41a1f
 
 
